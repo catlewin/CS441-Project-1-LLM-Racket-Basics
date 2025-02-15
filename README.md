@@ -277,21 +277,19 @@ Generated Code:
 **CatL:** How do i import the program's functions?
 
 
-**Claude:** 
-1. First, modify your original program (let's call it "frequency-counter.rkt") to export its functions:
+**Claude:** Modify original program to export its functions & update the require statements in the test file.
 
-   
+
+    ; First, modify your original program (let's call it "frequency-counter.rkt") to export its functions:
     ; Export the functions we want to test
     (provide read-frequencies
              find-min-max
              counting-sort
              display-frequencies
              process-file)
-        
-
-2. Then in your test file (let's call it "frequency-counter-test.rkt"), update the require statement:
 
 
+    ; Then in your test file (let's call it "frequency-counter-test.rkt"), update the require statement:
     (require "frequency-counter.rkt")  ; Make sure both files are in the same directory
 
 
