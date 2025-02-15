@@ -175,3 +175,18 @@ Generated Code:
              [sorted-freqs (counting-sort freq-table)])
         (display-frequencies sorted-freqs)
         sorted-freqs))  ; Return sorted frequencies for potential further processing
+
+**CatL:** can you update the display-frequencies function to take the hash table and display the frequency? 
+
+    ex: hash data ((-1 1) (1 1) (2 3) (3 2) (5 1) ) becomes (-1 1 2 2 2 3 3 5)
+
+
+**Claude:** Updated function:
+
+    ;; Updated function to display expanded frequencies
+    (define (display-frequencies sorted-freqs)
+      (let ([expanded-list 
+             (apply append
+                    (for/list ([pair sorted-freqs])
+                      (make-list (cdr pair) (car pair))))])
+        (printf "~a~n" expanded-list)))
