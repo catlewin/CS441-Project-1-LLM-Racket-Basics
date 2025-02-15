@@ -55,4 +55,4 @@
       sorted-freqs  ; Return this value
       (display-frequencies sorted-freqs))))
 
-(process-file "/Users/Catherine/Desktop/DataFiles/Data-6.txt")
+(process-file "/Users/X/Desktop/DataFiles/Data-6.txt")
