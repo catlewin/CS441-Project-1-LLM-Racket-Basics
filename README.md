@@ -1,6 +1,14 @@
-# CS441-Project-1-LLM-Racket-Basics
+# CS441-Project-1 Overview
 
-**AI Prompts & Claude.ai generated code:**
+**Program:** Main program code: frequency-counter.rkt, Test program code: test-code-frequency-counter.rkt
+
+**Discussion Document:** All discussion of program 1 in Discussion Document.docx (will prompt download). Alternatively can click [here](https://docs.google.com/document/d/1_2NGT3H3iwdPUag181rQZrQXgDVSJgFxHo1vQbdZLRA/edit?usp=sharing) to view online.
+
+**AI Transcript Below**
+
+****
+
+# AI Prompts & Claude.ai generated code:
 
 **CatL:** Write for me a racket program that reads in a .txt file of integers on to a value frequency pair hash table. Then produce a sorted list of the values.
 
