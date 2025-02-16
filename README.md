@@ -1,6 +1,6 @@
 # CS441-Project-1 Overview
 
-**Program:** Main program code: frequency-counter.rkt, Test program code: test-code-frequency-counter.rkt
+**Program:** Main program code in frequency-counter.rkt, Test program code in test-code-frequency-counter.rkt
 
 **Discussion Document:** All discussion of program 1 in Discussion Document.docx (will prompt download). Alternatively can click [here](https://docs.google.com/document/d/1_2NGT3H3iwdPUag181rQZrQXgDVSJgFxHo1vQbdZLRA/edit?usp=sharing) to view online.
 
